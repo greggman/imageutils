@@ -1,0 +1,25 @@
+{
+  "name": "imageutils",
+  "version": "0.0.1",
+  "authors": [
+    "Gregg Tavares <github@greggman.com>"
+  ],
+  "description": "A few JavaScript image utils",
+  "main": "imageutils.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "image",
+    "image processing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/greggman/imageutils",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
