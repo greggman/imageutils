@@ -1,8 +1,24 @@
 {
   "name": "imageutils",
   "description": "A few JavaScript image utils",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.5",
+  "main": "dist/imageutils.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greggman/imageutils.git"
+  },
+  "keywords": [
+    "image",
+    "images",
+    "pictures",
+    "graphics"
+  ],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/imageutils/issues"
+  },
+  "homepage": "https://github.com/greggman/imageutils",
   "dependencies": {
   },
   "devDependencies": {
