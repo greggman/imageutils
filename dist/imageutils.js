@@ -28,9 +28,12 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-"use strict";
+(function() {
+  var def = this.define || function(cb) { this.ImageUtils = cb(); };
 
-define(function() {
+def(function() {
+  "use strict";
+
   /**
    * Converts an RGB color value to HSV. Conversion formula
    * adapted from http://en.wikipedia.org/wiki/HSV_color_space.
@@ -327,3 +330,5 @@ define(function() {
     scaleImage: scaleImage,
   };
 });
+
+}());
