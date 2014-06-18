@@ -5,7 +5,7 @@ A few image utils for in browser JavaScript
 
 <img src="examples/example.png" width="358" height="88" />
 
-[Click for live example](examples/index.html)
+[Click for live example](http://greggman.github.io/imageutils/examples/index.html)
 
 usage:
 ------
